@@ -6,6 +6,8 @@
 }
 
 body {
+    border-style: double;
+    border-color: #F9A826;
     background-color: rgb(14, 13, 13);
     font-family: 'Montserrat', sans-serif;
     margin: auto;
@@ -27,8 +29,9 @@ hr {
 }
 
 .container-center {
+    color: gray;
     /* color: rgb(14, 13, 13); */
-    color: #F9A826;
+    /* color: #F9A826; */
     max-width: 600px;
     margin: auto;
     padding-bottom: 2rem;
@@ -77,7 +80,9 @@ hr {
 /** navigation **/
 
 .navigation {
-    background-color: rgb(14, 13, 13);
+    border-style: double;
+    border-color: #F9A826;
+    /* background-color: rgb(14, 13, 13); */
     color: var(--primary-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -100,7 +105,7 @@ hr {
     font-weight: bold;
 }
 
-
+.navigation container
 /** header **/
 
 .hero {
@@ -173,4 +178,10 @@ hr {
 
 .website {
     color: gray;
+}
+
+.code {
+    /* color: gray; */
+    text-align: center;
+    color: #F9A826;
 }
