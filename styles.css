@@ -98,6 +98,7 @@ hr {
 }
 
 .navigation .nav-brand {
+    color: gray;
     font-weight: bold;
     font-size: x-large;
 }
@@ -106,7 +107,14 @@ hr {
     font-weight: bold;
 }
 
-.navigation container
+.color {
+    color: #F9A826;
+}
+
+
+/* .navigation container */
+
+
 /** header **/
 
 .hero {
